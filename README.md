@@ -4,7 +4,6 @@
 
 <div align="center">
 
-![Discord](https://img.shields.io/discord/872844020416675892?color=7289DA)
 [![Discord Bots](https://top.gg/api/widget/status/872844020416675892.svg?noavatar=true)](https://top.gg/bot/872844020416675892)
 [![Discord Bots](https://top.gg/api/widget/servers/872844020416675892.svg?noavatar=true)](https://top.gg/bot/872844020416675892)
 ![GitHub](https://img.shields.io/github/license/shahriaravi/Sayu)
@@ -19,8 +18,8 @@ High quality Discord music bot with FREE audio effects and stays 24/7 on voice c
 ### Prerequisites
 
 Requirements for Sayu to run:
-- [Node.js](https://nodejs.org/en/download/) 16.6.0 is required
-- A [aoi.js](https://www.aoi.js.org/) instance running
+- [Node.js](https://nodejs.org/en/download/) 12.22.7 is required
+- A [aoi.js](https://aoi.js.org/) instance running
 - A Discord Bot 
             
 
