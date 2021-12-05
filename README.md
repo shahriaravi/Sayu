@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/shahriaravi/Sayu/blob/master/assets/Sayu.png?raw=true" width="140px" height="140px" /><br>
+    <img src="https://github.com/shahriaravi/Sayu/blob/main/assets/Sayu.png?raw=true" width="140px" height="140px" /><br>
 </div>
 
 <div align="center">
