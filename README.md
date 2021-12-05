@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/Tetracyl/EarTensifier/blob/master/assets/eartensifier.png?raw=true" width="140px" height="140px" /><br>
+    <img src="https://github.com/shahriaravi/Sayu/blob/master/assets/Sayu.png?raw=true" width="140px" height="140px" /><br>
 </div>
 
 <div align="center">
