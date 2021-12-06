@@ -6,13 +6,16 @@
 
 [![Discord Bots](https://top.gg/api/widget/status/872844020416675892.svg?noavatar=true)](https://top.gg/bot/872844020416675892)
 [![Discord Bots](https://top.gg/api/widget/servers/872844020416675892.svg?noavatar=true)](https://top.gg/bot/872844020416675892)
-![GitHub](https://img.shields.io/github/license/shahriaravi/Sayu)
 
 </div>
 
 <h1>Sayu</h1>
 
 High quality Discord music bot with FREE audio effects and stays 24/7 on voice channel! Supports YouTube, Spotify and more!
+
+### Veersion
+- [Sayu](https://sayubot.xyz/) 3.0.2
+- [aoi.js](https://aoi.js.org/) 4.6.0
 
 
 ### Prerequisites
