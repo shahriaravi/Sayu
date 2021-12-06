@@ -1,0 +1,30 @@
+{
+  "name": "sayu",
+  "version": "3.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Avi & Manjiro Sano",
+  "license": "ISC",
+  "dependencies": {
+    "@top-gg/sdk": "^3.1.1",
+    "aoi.js": "^4.6.0",
+    "axios": "^0.21.4",
+    "dbd.js-utils": "^0.1.1",
+    "ffmpeg-static": "^4.4.0",
+    "i": "^0.3.7",
+    "node-fetch": "^3.1.0",
+    "node-opus": "^0.3.3",
+    "npm": "^8.2.0",
+    "opusscript": "0.0.8",
+    "prism-media": "^1.3.2",
+    "tweetnacl": "^1.0.3",
+    "ytdl-core": "^4.9.1",
+    "ytsearch": "^1.0.4"
+  }
+}
