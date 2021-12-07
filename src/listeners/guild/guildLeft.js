@@ -6,7 +6,7 @@ module.exports = {
      $thumbnail[$serverIcon]
      $addfield[**Member Count**;$memberscount]
      $addField[**Guild ID**;\`$guildID\`]
-     $addField[**Server Owner**;<@$ownerID> (\`$ownerID\`)]
+     $addField[**Server Owner**;$userTag[$ownerID] <@$ownerID> (\`$ownerID\`)]
      $addField[**Server Name**;$serverName]
      $color[RED]
      $footer[Total guilds count: $serverCount]
