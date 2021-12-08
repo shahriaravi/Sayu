@@ -15,7 +15,7 @@
 High quality Discord music bot with FREE audio effects and stays 24/7 on voice channel! Supports YouTube, Spotify and more!
 
 ### Version
-- [Sayu](https://sayubot.xyz/) 3.0.2
+- [Sayu](https://sayubot.xyz/) 3.5.0
 - [aoi.js](https://aoi.js.org/) 4.6.0
 
 
