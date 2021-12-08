@@ -12,7 +12,7 @@ axios({
   data: {
    server_count: client.guilds.cache.size
   }, headers: {
-'Authorization': '$getVar[authkey]' 
+'Authorization': '$getVar[TOPGG_AUTH]' 
 
 }
 
