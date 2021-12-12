@@ -36,7 +36,7 @@ d.object.s10 = body[9].title.replace('#LEFT#', '\\)').replace('#RIGHT#', '\\(')
 })]
 
 $onlyif[$djseval[require('yt-search')(d.args.join(' ')).then(x => x.all);yes]!=[];**Song not found**]
-$onlyIf[$message!=;<@$authorID> Baka use $getServerVar[prefix]play (song name or url)!]
+$onlyIf[$message!=;You are missing a required command argument: \`song name\`\nCommand usage: \`$getServerVar[prefix]search [name]]
 $onlyIf[$voiceID!=;$getVar[noVoiceChannel]]
 $cooldown[8s;]
 $createobject[{}]
@@ -75,13 +75,12 @@ d.object.s10 = body[9].title.replace('#LEFT#', '\\)').replace('#RIGHT#', '\\(')
 })]
 
 $onlyif[$djseval[require('yt-search')(d.args.join(' ')).then(x => x.all);yes]!=[];**No song found.**]
-$onlyIf[$message!=;<@$authorID> Baka use $getServerVar[prefix]play (song name or url)!]
+$onlyIf[$message!=;You are missing a required command argument: \`song name\`\nCommand usage: \`$getServerVar[prefix]search [name]]
 $onlyIf[$voiceID!=;$getVar[noVoiceChannel]]
 $cooldown[8s;]
 $createobject[{}]
 $endelseif
 $endif
-$suppressErrors[An unknown error occurred while searching]
 $botTyping`
 }, {
     name: "search",
@@ -95,7 +94,6 @@ $onlyif[$djseval[require('yt-search')('$splittext[$message]').then(x => x.all[0]
 
 
 $textsplit[$getglobaluservar[prefix];|]
-$suppressErrors[An unknown error occurred while searching]
 $botTyping`
 }, {
     name: "search1",
@@ -115,6 +113,5 @@ $textsplit[$getglobaluservar[prefix];|]`
     code: `$deletemessage[$channelid;$findnumbers[$getuservar[prefix]]]
 $onlyif[$messageexists[$channelid;$findnumbers[$getuservar[prefix]]]==true;]
 $addTimestamp
-$suppressErrors[An unknown error occurred while searching]
 $botTyping`
 }]
