@@ -36,7 +36,7 @@ d.object.s10 = body[9].title.replace('#LEFT#', '\\)').replace('#RIGHT#', '\\(')
 })]
 
 $onlyif[$djseval[require('yt-search')(d.args.join(' ')).then(x => x.all);yes]!=[];**Song not found**]
-$onlyIf[$message!=;You are missing a required command argument: \`song name\`\nCommand usage: \`$getServerVar[prefix]search [name]]
+$onlyIf[$message!=;You are missing a required command argument: \`song name\`\nCommand usage: \`$getServerVar[prefix]search [name]\`]
 $onlyIf[$voiceID!=;$getVar[noVoiceChannel]]
 $cooldown[8s;]
 $createobject[{}]
@@ -75,7 +75,7 @@ d.object.s10 = body[9].title.replace('#LEFT#', '\\)').replace('#RIGHT#', '\\(')
 })]
 
 $onlyif[$djseval[require('yt-search')(d.args.join(' ')).then(x => x.all);yes]!=[];**No song found.**]
-$onlyIf[$message!=;You are missing a required command argument: \`song name\`\nCommand usage: \`$getServerVar[prefix]search [name]]
+$onlyIf[$message!=;You are missing a required command argument: \`song name\`\nCommand usage: \`$getServerVar[prefix]search [name]\`]
 $onlyIf[$voiceID!=;$getVar[noVoiceChannel]]
 $cooldown[8s;]
 $createobject[{}]
