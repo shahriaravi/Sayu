@@ -10,8 +10,8 @@ $endif
 
 The purebass effect is \`$message\` for the player.
 
-$onlyIf[$checkContains[$message[1];on;off]==true;You are missing a required command argument: \`value\`\nCommand usage: \`$getServerVar[prefix]8D [on|off]\`]
-$argsCheck[1;You are missing a required command argument: \`value\`\nCommand usage: \`$getServerVar[prefix]8D [on|off]\`]
+$onlyIf[$checkContains[$message[1];on;off]==true;You are missing a required command argument: \`value\`\nCommand usage: \`$getServerVar[prefix]purebass [on|off]\`]
+$argsCheck[1;You are missing a required command argument: \`value\`\nCommand usage: \`$getServerVar[prefix]purebass [on|off]\`]
 $onlyIf[$queueLength!=0;$getVar[noSongsPlaying]]
 $onlyIf[$voiceID!=;$getVar[noVoiceChannel]]
 `
