@@ -10,7 +10,7 @@ $formatDate[$dateStamp;LLLL]]  › ✔  ready     Guilds $serverCount
  {
     type: "readyCommand",
     channel: "$getVar[readyChannel]",
-    code: `$setVar[last;$dateStamp]
+    code: `
     $userTag[$clientID] is online: $serverCount servers and $allMembersCount members.
     `
 }]
