@@ -7,6 +7,5 @@ module.exports = (bot) => {
     vote: 'https://top.gg/bot/872844020416675892/vote',
     sserver: 'https://discord.gg/MscZrQq7eW',
     played: '',
-    last: 'null',
        })
  }
