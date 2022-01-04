@@ -34,5 +34,4 @@ Requirements for Sayu to run:
 [![Top.gg](https://top.gg/api/widget/872844020416675892.svg)](https://top.gg/bot/872844020416675892)
 [![Discord Bot List](https://discordbotlist.com/api/bots/sayu/widget)](https://discordbotlist.com/bots/sayu)
 [![Discord Boats](https://discord.boats/api/widget/872844020416675892)](https://discord.boats/bot/872844020416675892)
-[![Discord Bots](https://discord.bots.gg/api/widget/872844020416675892)](https://discord.bots.gg/bots/872844020416675892)
 [![Void Bots](https://voidbots.net/api/embed/872844020416675892)](https://voidbots.net/bot/872844020416675892)
