@@ -1,5 +1,6 @@
 module.exports = ({
     name: "seek",
+    $if: "v4",
     code:
     `
    Track is now on \`$message\` seconds.
