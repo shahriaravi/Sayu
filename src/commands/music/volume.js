@@ -1,5 +1,6 @@
 module.exports = ({
     name: "volume",
+    $if: "v4",
     aliases: ["v","vol"],
     code:`
    Player volume is now \`$message[1]%\`.
