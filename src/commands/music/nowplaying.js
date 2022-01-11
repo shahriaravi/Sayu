@@ -5,6 +5,7 @@ const current1 = `$replaceText[$replaceText[$splitText[3];(;];);]$textSplit[$son
 
 module.exports = ({
  name: "nowplaying",
+ $if: "v4",
  aliases: ["np"],
  code: `
 $thumbnail[$songInfo[thumbnail]]
