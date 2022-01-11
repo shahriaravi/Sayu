@@ -1,5 +1,6 @@
 module.exports = {
     name: 'bassboost',
+    $if: "v4",
     code: `
   $sendMessage[Current bassboost: \`$message\`.;no]
   $songFilter[bass:$message[1]]
