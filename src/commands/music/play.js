@@ -1,5 +1,6 @@
 module.exports = ({
     name: "play",
+    $if: "v4",
     aliases: ['p'],
     code: `
 $color[$getVar[color]]
