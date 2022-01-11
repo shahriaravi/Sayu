@@ -1,5 +1,6 @@
 module.exports = {
     name: 'vaporwave',
+    $if: "v4",
     code: `
 
 $if[$toLowercase[$message]==on]
