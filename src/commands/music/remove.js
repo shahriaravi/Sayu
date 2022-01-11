@@ -1,5 +1,6 @@
 module.exports = {
     name: "remove",
+    $if: "v4",
     code: `$sendMessage[Song number \`$message[1]\` has been removed from the queue.;no] 
  $movesong[$sum[$message[1];1];]
  $onlyIf[$isnumber[$message[1]]==true;The song number format for remove must be numeric.]
