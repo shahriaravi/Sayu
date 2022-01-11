@@ -1,9 +1,0 @@
-{
-  "token": "TOKEN",
-  "prefix": ["$getServerVar[prefix]","<@!$ClientID>","<@$ClientID>"],
-  "connectedBots": false,
-  "sharding": false,
-  "respondToBots": false,
-  "suppressAll": true,
-  "errorMessage": " "
-  }
