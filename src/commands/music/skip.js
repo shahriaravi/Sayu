@@ -1,5 +1,6 @@
 module.exports = ({
     name: "skip",
+    $if: "v4",
     aliases: ["s","next"],
     code: `
    $skipSong
