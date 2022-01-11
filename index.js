@@ -1,5 +1,6 @@
 const Aoijs = require("aoi.js")
-const bot = new Aoijs.Bot(require("./config/config.json"))
+const config = require('./config/config.json');
+const bot = new Aoijs.Bot(config.Bot);
 
 bot.loadCommands(`./src/`)
 
