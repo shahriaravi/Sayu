@@ -1,5 +1,6 @@
 module.exports = {
     name: 'phaser',
+    $if: "v4",
     code: `
 $if[$toLowercase[$message]==on]
 $songFilter[phaser:1:$message[1]]
