@@ -1,5 +1,6 @@
 module.exports = ({
     name: "skipto",
+    $if: "v4",
     aliases: ['jump'],
     code:
     `
