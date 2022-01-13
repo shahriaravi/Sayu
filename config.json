@@ -1,9 +1,16 @@
 {
   "token": "TOKEN",
   "prefix": ["$getServerVar[prefix]","<@!$ClientID>","<@$ClientID>"],
-  "connectedBots": false,
-  "sharding": false,
-  "respondToBots": false,
-  "suppressAll": true,
+  "intents": "all",
+  "database": {
+    "type": "default",
+    "path": "./db/",
+    "tables": ["sayu"],
+    "promisify": false
+  },
+  "respondOnEdit": {
+    "commands": true
+  },
+  "suppressAllErrors": false,
   "errorMessage": " "
   }
