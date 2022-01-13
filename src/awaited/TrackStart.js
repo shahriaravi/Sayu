@@ -3,6 +3,7 @@ const deldur = `$replaceText[$replaceText[$splitText[1];(;];);] $textSplit[$song
 module.exports = {
     type: "awaitedCommand",
     name: "music1",
+    $if: 'v4',
     code: `
     $deleteIn[${deldur}s]
      $setVar[played;$sum[$getvar[played];1]]
