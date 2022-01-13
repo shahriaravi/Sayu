@@ -1,27 +1,27 @@
 module.exports = {
     name: "help",
-    code: `$color[$getVar[color]]
-$author[Commands;$userAvatar[$clientid]]
+    code: `$color[1;$getVar[color]]
+$author[1;Commands;$userAvatar[$clientid]]
 
-$description[[Invite]($getVar[inv]) • [Vote]($getVar[vote]) • [Support]($getVar[sserver])
-$addField[Server Setting;
+$description[1;[Invite]($getVar[inv]) • [Vote]($getVar[vote]) • [Support]($getVar[sserver])
+$addField[1;Server Setting;
 \`clear-filters\`, \`prefix\`
    ]
 
- $addField[Filters;
+ $addField[1;Filters;
 \`bassboost\`, \`3D\`, \`8D\`, \`16D\`, \`echo\`, \`gate\`, \`nightcore\`, \`phaser\`, \`pitch\`, \`purebass\`, \`slowed\`, \`space\`, \`speed\`, \`vaporwave\`
  ]
 
-$addField[Misc;
+$addField[1;Misc;
 \`help\`, \`invite\`, \`ping\`, \`stats\`, \`support\`, \`uptime\`, \`vote\`
    ]
  
-$addField[Music;
+$addField[1;Music;
 \`clearqueue\`, \`disconnect\`, \`join\`, \`loopqueue\`, \`loopsong\`, \`lyrics\`, \`nowplaying\`, \`pause\`, \`play\`, \`queue\`, \`remove\`, \`repeat\`, \`resume\`, \`search\`, \`seek\`, \`shuffle\`, \`skip\`, \`skipto\`, \`stop\`, \`volume\`
  ]]
 
-$footer[Requested by $userTag;$authorAvatar]
-$addTimeStamp
+$footer[1;Requested by $userTag;$authorAvatar]
+$addTimeStamp[1]
 $channelSendMessage[$getVar[messageChannel];$username#$discriminator[$authorID] (\`$authorID\`) used \`help\` command at $serverName (\`$guildID\`) in <#$channelID> (\`$channelID\`)]
    `
    }
