@@ -1,7 +1,7 @@
 module.exports = (bot) => {
     bot.onMessage()
-    bot.onJoined()
-    bot.onLeave()
+    bot.onMessageUpdate()
+    bot.onJoin()
     bot.onGuildJoin()
     bot.onGuildLeave()
    }
