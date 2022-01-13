@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@top-gg/sdk": "^3.1.1",
-    "aoi.js": "^4.6.0",
+    "aoi.js": "^5.0.7"
     "dbdjs.db": "^2.0.2",
     "dbd.js-utils": "^0.1.1",
     "ytsearch": "^1.0.4"
