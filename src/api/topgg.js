@@ -1,6 +1,6 @@
 module.exports = ({
     channel: "$getVar[readyChannel]",
-    type: "loopCommand",
+    type: "loop",
     every: 1800000,
     executeOnStartup: false,
     code: `
