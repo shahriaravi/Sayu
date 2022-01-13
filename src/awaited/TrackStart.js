@@ -1,7 +1,7 @@
 const deldur = `$replaceText[$replaceText[$splitText[1];(;];);] $textSplit[$songInfo[duration]; ]`;
 
 module.exports = {
-    type: "awaitedCommand",
+    type: "awaited",
     name: "music1",
     $if: 'v4',
     code: `
