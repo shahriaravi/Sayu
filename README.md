@@ -28,7 +28,8 @@ Requirements for Sayu to run:
             
 
 ## Contributors
-- [Manjiro Sano](https://github.com/ManjiroSano): Backend Developer.
+- [Shahriar Avi](https://github.com/shahriaravi): Lead Developer | Backend Engineer.
+- [Manjiro Sano](https://github.com/ManjiroSano): Backend Engineer.
 
 ## Bot Lists
 [![Top.gg](https://top.gg/api/widget/872844020416675892.svg)](https://top.gg/bot/872844020416675892)
