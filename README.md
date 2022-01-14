@@ -28,7 +28,7 @@ Requirements for Sayu to run:
             
 
 ## Contributors
-- [Avi](https://github.com/shahriaravi): Lead Developer | Backend Engineer.
+- [Avi](https://github.com/shahriaravi): Project Lead | Chief Engineer.
 - [Manjiro Sano](https://github.com/ManjiroSano): Backend Engineer.
 
 ## Bot Lists
