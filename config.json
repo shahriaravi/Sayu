@@ -1,16 +1,9 @@
 {
-  "token": "TOKEN",
+  "token": "ODcyODQ0MDIwNDE2Njc1ODky.YQvxVw.SBN3B6nOCXfDg3ybtMH3s_9Af04",
   "prefix": ["$getServerVar[prefix]","<@!$ClientID>","<@$ClientID>"],
-  "intents": "all",
-  "database": {
-    "type": "default",
-    "path": "./db/",
-    "tables": ["sayu"],
-    "promisify": false
-  },
-  "respondOnEdit": {
-    "commands": true
-  },
-  "suppressAllErrors": false,
+  "connectedBots": false,
+  "sharding": false,
+  "respondToBots": false,
+  "suppressAll": true,
   "errorMessage": " "
   }
