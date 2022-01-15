@@ -1,6 +1,5 @@
 module.exports = [{
     name: "search",
-    $if: "v4",
     aliases: ["search-song"],
     perms: ["EMBED_LINKS", "MANAGE_MESSAGES"],
     code: `$if[$voiceid[$clientid]!=]
