@@ -1,6 +1,5 @@
 module.exports = ({
     name: "loopsong",
-    $if: "v4",
     aliases: "loops",
     code: `
     $if[$loopStatus==none]
