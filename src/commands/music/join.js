@@ -1,6 +1,5 @@
 module.exports = ({
     name: "join",
-    $if: "v4",
     aliases: ['connect'],
     code: `
   $addCmdReactions[👋]
