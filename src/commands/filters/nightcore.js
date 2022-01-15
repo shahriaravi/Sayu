@@ -1,6 +1,5 @@
 module.exports = {
     name: 'nightcore',
-    $if: "v4",
     aliases: ["nc"],
     code: `
 
