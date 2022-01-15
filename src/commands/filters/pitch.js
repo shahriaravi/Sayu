@@ -1,6 +1,5 @@
 module.exports = ({
     name: "pitch",
-    $if: "v4",
     code: `$sendmessage[Player pitch is set to \`$message[1]\`.;no]
    $songFilter[pitch:$message[1]]
    $onlyIf[$message[1]<2;You can set maximum speed upto \`1.9\`]
