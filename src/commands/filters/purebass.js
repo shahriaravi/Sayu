@@ -1,6 +1,5 @@
 module.exports = {
     name: 'purebass',
-    $if: "v4",
     code: `
 $if[$toLowercase[$message]==on]
 $songFilter[bass:20;pitch:1;speed:1:$message[1]]
