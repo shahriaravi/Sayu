@@ -3,7 +3,6 @@ const deldur = `$replaceText[$replaceText[$splitText[1];(;];);] $textSplit[$song
 module.exports = {
     type: "musicStartCommand",
       channel: "$channelID",
-      $if: 'v4',
       code: `$deleteIn[${deldur}s]
      $setVar[played;$sum[$getvar[played];1]]
      $color[$getVar[color]]
