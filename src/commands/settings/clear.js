@@ -1,7 +1,6 @@
 module.exports = {
     name: "clear",
     aliases: ["fix", "clear-filters"],
-    $if: 'v4',
     code: `
 $songFilter[phaser:0;flanger:0;gate:0;surround:0;bass:0;pitch:1;speed:1;earwax:0;echo:0;contrast:0;pulsator:0;vibrato:0]
 Clearing..
