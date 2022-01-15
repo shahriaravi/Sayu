@@ -1,6 +1,5 @@
 module.exports = ({
     name: "queue",
-    $if: "v4",
     aliases: ['q'],
     code:
     `
