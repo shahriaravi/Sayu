@@ -1,6 +1,5 @@
 module.exports = ({
         name: "shuffle",
-        $if: "v4",
         code: `
        $if[$loopStatus==none]
        $addCmdReactions[🔀]
