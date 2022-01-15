@@ -1,6 +1,5 @@
 module.exports = ({
     name: "clear-queue",
-    $if: "v4",
     aliases: ["cq","clearqueue"],
     code: `
     $clearSongQueue
