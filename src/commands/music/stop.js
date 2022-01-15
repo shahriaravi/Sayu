@@ -1,6 +1,5 @@
 module.exports = ({
     name: "stop",
-    $if: "v4",
     code: `
    $stopSong
    The player has been completely stopped!
