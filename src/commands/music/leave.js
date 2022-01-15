@@ -1,6 +1,5 @@
 module.exports = ({
     name: "leave",
-    $if: "v4",
     aliases: ['disconnect', 'dc'],
     code: `
    Disconnected from voice channel.
