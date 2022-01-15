@@ -1,5 +1,5 @@
 {
-  "token": "ODcyODQ0MDIwNDE2Njc1ODky.YQvxVw.SBN3B6nOCXfDg3ybtMH3s_9Af04",
+  "token": "TOKEN",
   "prefix": ["$getServerVar[prefix]","<@!$ClientID>","<@$ClientID>"],
   "connectedBots": false,
   "sharding": false,
