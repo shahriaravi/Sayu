@@ -1,6 +1,5 @@
 module.exports = ({
     name: "loopqueue",
-    $if: "v4",
     aliases: "loopq",
     code: `
    $if[$loopStatus==none]
