@@ -1,6 +1,5 @@
 module.exports = ({
     name: "lyrics",
-    $if: "v4",
     aliases: ["ly"],
     code:`
     $title[$songInfo[title]]
