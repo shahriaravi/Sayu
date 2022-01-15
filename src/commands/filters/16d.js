@@ -1,6 +1,5 @@
 module.exports = {
     name: '16D',
-    $if: "v4",
     aliases: ["16d"],
     code: `
 $if[$toLowercase[$message]==on]
