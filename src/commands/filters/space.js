@@ -1,6 +1,5 @@
 module.exports = {
     name: 'space',
-    $if: "v4",
     code: `
 $if[$toLowercase[$message]==on]
 $songFilter[phaser:1;flanger:0;gate:0;surround:0;bass:0;pitch:1;speed:1;earwax:0;echo:1;contrast:0;pulsator:0;vibrato:0:$message[1]]
