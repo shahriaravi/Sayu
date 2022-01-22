@@ -12,7 +12,7 @@ module.exports = {
     
 Join a voice channel and \`$getServerVar[prefix]play\` a song.
 Type \`$getServerVar[prefix]help\` for the list of commands.
-[Invite]($getVar[inv]) | [Vote]($getVar[vote]) | [Support]($getVar[sserver]) | [Creavite.co](https://creavite.co)]
+[Invite]($getVar[inv]) | [Vote]($getVar[vote]) | [Support]($getVar[sserver])]
 $footer[Latency: $ping ms | Uptime: $client[readytimestamp]]
 $onlyIf[$message[2]==;]`
    };  
