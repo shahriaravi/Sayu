@@ -29,7 +29,7 @@ Requirements for Sayu to run:
 
 ## Contributors
 - [Avi](https://github.com/shahriaravi): Project Lead | Chief Engineer.
-- [Manjiro Sano](https://github.com/ManjiroSano): Backend Engineer.
+- [Tetsuke](https://github.com/Tetsuke): Backend Engineer.
 
 ## Bot Lists
 [![Top.gg](https://top.gg/api/widget/872844020416675892.svg)](https://top.gg/bot/872844020416675892)
